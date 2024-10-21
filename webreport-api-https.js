@@ -16,7 +16,7 @@ const OnlineAgent = require('./repository/OnlineAgent');
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "1";
 
-const apiport = 8500
+const apiport = 8200
 
 var url = require('url');
 const { DateTime } = require('mssql');
@@ -24,7 +24,7 @@ const { DateTime } = require('mssql');
 //---------------- Websocket -----------------------------
 
 var webSocketServer = new (require('ws')).Server({
-    port: (process.env.PORT || 8501)
+    port: (process.env.PORT || 8201)
 }),
     clientWebSockets = {} // userID: webSocket
 CLIENTS = [];

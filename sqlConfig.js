@@ -1,7 +1,7 @@
 var dbconfig = {
     development: {
         server: 'host.docker.internal',
-        database:'team5_web_labDB',
+        database:'team2_web_labDB',
         user:'sa',
         password:'P@ssw0rd',
         port: 1433,
@@ -16,7 +16,7 @@ var dbconfig = {
     },
     production: {
         server: '10.21.43.203',
-        database:'team5_web_labDB',
+        database:'team2_web_labDB',
         user:'sa',
         password:'P@ssw0rd',
         port: 1433,
